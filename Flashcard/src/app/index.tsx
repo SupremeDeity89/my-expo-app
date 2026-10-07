@@ -7,7 +7,7 @@ export default function HomeScreen() {
       <Text style={styles.t}>Flashcard App</Text>
       <Text style={styles.s}>pili-pili:</Text>
       <Button 
-        title="React Native deck" 
+        title="React Native deck 2.0" 
         onPress={() => router.push({ pathname: '/study', params: { deckId: 'react-native' } })} 
       />
       <View style={{ height: 15 }} />
